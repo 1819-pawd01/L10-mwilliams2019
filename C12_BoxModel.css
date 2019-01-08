@@ -1,0 +1,59 @@
+/* 
+* Madelyn Williams
+* 11 January 2019
+* Box Model Project
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body attributes here */
+
+body {
+    margin: 10px;
+    border: 5px dotted aqua;
+    padding: 15px 30px;
+}
+
+main {
+    border: 1px solid black;
+    padding: 15px;
+    border: 10px solid lawngreen;
+}
+
+header {
+    border-bottom: 5px solid magenta;
+    padding: 1px;
+    margin: 15px;
+    font-size: 24px;
+
+}
+
+h1 {
+    border-bottom: 1px dotted black;
+    padding: 0px;
+}
+
+h2 {
+    border: 3px dashed purple;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+p {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+footer {
+    border-top: 5px solid lightcoral;
+    font: italic;
+    margin-top: 15px;
+    padding: 1px;
+    font-size: 15px;
+}
